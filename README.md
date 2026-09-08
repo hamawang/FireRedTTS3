@@ -51,6 +51,7 @@
 
 
 ## News
+- [2026.08.13] We release the Gradio demo for both FireRedTTS3 Base & Instruct.
 - [2026.08.13] We release the **FireRedTTS3**
 
 
@@ -236,8 +237,6 @@ torchaudio.save("gen_instruct.wav", gen_audio.cpu(), gen_audio_sr)
 
 ### Gradio Demo
 
-
-
 ```sh
 # Install gradio
 pip install gradio
@@ -251,6 +250,8 @@ python gradio_instruct.py --host "0.0.0.0" --port 7860
 # The Gradio app will be available at http://0.0.0.0:7860.
 # If you are serving it behind a proxy, such as Remote VS Code, add the `--root-path` option, for example: `--root-path https://somewebsite/proxy/7860/`
 ```
+Gradio interface for FireRedTTS3-Base(left) and Instruct(right).
+![Gradio](assets/tts3_gradio_demo.jpg)
 
 ## Performance
 
