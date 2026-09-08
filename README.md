@@ -234,6 +234,24 @@ torchaudio.save("gen_instruct.wav", gen_audio.cpu(), gen_audio_sr)
 ```
 
 
+### Gradio Demo
+
+
+
+```sh
+# Install gradio
+pip install gradio
+
+# Run FireRedTTS3-Base:
+python gradio_base.py --host "0.0.0.0" --port 7860
+
+# Run FireRedTTS3-Instruct:
+python gradio_instruct.py --host "0.0.0.0" --port 7860
+
+# The Gradio app will be available at http://0.0.0.0:7860.
+# If you are serving it behind a proxy, such as Remote VS Code, add the `--root-path` option, for example: `--root-path https://somewebsite/proxy/7860/`
+```
+
 ## Performance
 
 ### Zero-Shot Voice Cloning — Seed-TTS-eval
