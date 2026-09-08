@@ -51,7 +51,7 @@
 
 
 ## News
-- [2026.08.13] We release the Gradio demo for both FireRedTTS3 Base & Instruct.
+- [2026.08.13] We release the **[Gradio demo](###Gradio-Demo)** for both FireRedTTS3 Base & Instruct.
 - [2026.08.13] We release the **FireRedTTS3**
 
 
